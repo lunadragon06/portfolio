@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Contact her for hiring or freelance work.">
+    <title>
+        Portfolio | Contact
+    </title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/jpg" href="img/avatar.png" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS here -->
+</head>
+
+<body>
+    <div class="footer-down">
+
+        <!-- NAV -->
+        <nav>
+            <section class="menu">
+                <!-- Logo-placement -->
+                <span class="title"></span>
+                <!-- Main menu -->
+                <ul>
+                    <li>
+                        <a href="index.html">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html#portfolio">
+                            Portfolio
+                        </a>
+                    </li>
+                    <li>
+                        <a href="about.html">
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="active">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+                <!-- Hamburger menu -->
+                <div class="ham-menu">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </section>
+        </nav>
+        <!-- Dropdown-like menu (mobile version) -->
+        <div class="drop-menu">
+            <li>
+                <a href="index.html">
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="index.html#portfolio">
+                    Portfolio
+                </a>
+            </li>
+            <li>
+                <a href="about.html">
+                    About
+                </a>
+            </li>
+            <li>
+                <a href="contact.html" class="active">
+                    Contact
+                </a>
+            </li>
+        </div>
+
+        <!-- CONTACT FORM -->
+        <form id="contactForm">
+        <!-- Message confirmation -->
+        <div id="message"></div>
+        <h1 class="form-heading">Let's get in touch</h1>
+        <!-- * 1st column * --> 
+        <!-- Input fields -->
+        <div class="form_column">
+            <!-- name -->
+            <label for="name">            
+                Name 
+                <span class="required">
+                    *
+                </span>
+                <span id="nameError" class="error">
+                    &#9888; Enter your name
+                </span>
+            </label>
+            <input type="adress" name="adress" id="adress">
+            <!-- email -->
+            <label for="email">
+                Email 
+                <span class="required">
+                    *
+                </span>
+                <span id="emailError" class="error">
+                    &#9888; Invalid email
+                </span>
+            </label>
+            <input type="email" name="email" id="email">
+            <!-- phone -->
+            <label for="the-phone">
+                Phone number (Optimal)
+            </label>
+            <input type="tel" name="phone" id="the-phone">     
+            </div>
+            <!-- * 2nd column * -->
+            <!-- Message field -->
+            <div class="form_message">
+                <!-- message -->
+                <label for="message">
+                    Message
+                    <span class="required">
+                        *
+                    </span>
+                    <span id="formMessageError" class="error">
+                        &#9888; Min. 24 character
+                    </span>
+                </label>
+                <textarea name="message" id="formMessage"></textarea>
+                <!-- submit button -->
+                <input type="submit" value="Send">
+            </div>
+        </form>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <ul class="social-media">
+            <a href="https:www.linkedin.com/in/monika-lie" target="_blank">
+                <i class="ri-linkedin-box-fill"></i>
+            </a>
+            <a href="https://github.com/lunadragon06">
+                <i class="ri-github-fill"></i>
+            </a>
+        </ul>
+        <p>
+            Copyright © 2020-2022 Monika Lie
+        </p>
+    </footer>
+
+    <!-- Javascript here -->
+    <script src="js/script.js"></script>
+    <script src="js/components/form.js"></script>
+
+</body>
+</html>
