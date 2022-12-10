@@ -4,7 +4,7 @@
 ## 📜 Description
 This repo is connected to my currently official portfolio website that was created related to Startup Bootcamp course program and Portfolio 2 submission via Noroff. My personal portfolio is still labeled as «work in progress» or just as a «draft».
 ## ✎ Update information 
-Only thing I have changed on this page are what work samples I'll share, which is my required repos:
+Only thing I have changed are what work samples I'll share, which is my required repos with my updated resumé (in 🇳🇴) included:
 - [Project Exam 2](https://github.com/lunadragon06/torfs-art-gallery/tree/master/) 
 - [JS Frameworks CA](https://github.com/lunadragon06/gamehub/tree/main/) 
 - [Semester Project 2](https://github.com/lunadragon06/betanya-cosmetics) 
