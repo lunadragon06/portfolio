@@ -24,6 +24,6 @@ export const portfolio = [
         image: "../img/portfolio/project3.jpg",
         id: "3",
         description: "Fictional e-commerce website that belongs to Semester Project 2. The project theme is also chosen based on personal interest and curiousity for vegan and cruelty-free beauty products. The goal of this assignment was to use everything I learned and could so far in vanilla JavaScript from 3rd semester (2nd year) of Frontend Development study program.",
-        github: "https://github.com/LunaDragon666/gamehub",
+        github: "https://github.com/lunadragon06/betanya-cosmetics",
     }
  ];
