@@ -388,6 +388,7 @@ footer p {
     .section {
         flex-direction: var(--mobile-display); 
         gap: 40px; 
+        padding: 0;
     }
     .section div { 
         width: 100%; 
