@@ -4,7 +4,7 @@
 Preivew of my current portfolio 
 
 ## 📜 Description
-This repo is connected to my currently official portfolio website that was created related to Startup Bootcamp course program and Portfolio 2 submission via Noroff. My personal portfolio is still labeled as «work in progress» or just as a «draft».
+This repo is connected to my currently official portfolio website that was created related to Startup Bootcamp (Industry Knowledge) course program and Portfolio 2 submission via Noroff. My personal portfolio is still labeled as «work in progress» or just as a «draft».
 ## 🔧 Build With
 Currently this site is built and created with:
 - [CSS](https://www.w3schools.com/css/)
@@ -14,10 +14,10 @@ Currently this site is built and created with:
 - [JavaScript](https://www.javascript.com/)
 ## 🏅 License
 This homepage was created by myself and the code to this project is taken from [my other GitHub account](https://github.com/LunaDragon666/) which I also created from that time. I used [this tool](https://coolors.co/contrast-checker/112a46-acc8e5/) to change and try to improve website's color contrasts. Other changes I did on this site are:
-- [x] Replacing my previous CV with my latest updated resumé (in my native language)
+- [x] Replacing my previous CV with my latest updated resumé (in my native language).
 - [x] Divide the styling code part of this site in slightly smaller pieces, clearing of CSS files will be continued .. 
 ## ✎ Update information 
-I have also changed what work samples I'll share, which is my required repos listed here:
+My previous portfolio design can be previewed [here](https://monicdesign.netlify.app/) which I also created from that time. I used [this tool](https://coolors.co/contrast-checker/112a46-acc8e5/). I have also changed what work samples I'll share, which is my required repos listed here:
 - [Project Exam 2](https://github.com/lunadragon06/torfs-art-gallery/tree/master/) 
 - [JS Frameworks CA](https://github.com/lunadragon06/gamehub/tree/main/) 
 - [Semester Project 2](https://github.com/lunadragon06/betanya-cosmetics) 
