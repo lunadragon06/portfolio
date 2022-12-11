@@ -1,6 +1,8 @@
 # 🌍 Portfolio 2: Portfolio - Version 1.0. 
 <img src="img/portfolio.png" alt="My website screenshot.">
 
+Preivew of my current portfolio 
+
 ## 📜 Description
 This repo is connected to my currently official portfolio website that was created related to Startup Bootcamp course program and Portfolio 2 submission via Noroff. My personal portfolio is still labeled as «work in progress» or just as a «draft».
 ## 🔧 Build With
