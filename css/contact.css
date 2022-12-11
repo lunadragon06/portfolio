@@ -1,0 +1,146 @@
+form { 
+    margin: 0 auto; 
+    max-width: 1000px; 
+    padding: 100px; 
+}
+
+.form_column { 
+    margin-right: 50px; 
+}
+
+.form_column, 
+.form_message { 
+    float: left; 
+    padding: 25px 0 0;
+    width: 45%;  
+}
+
+.form-heading { 
+    color: var(--secondary-color); 
+    font-size: 26px; 
+}
+
+input[type="submit"] { 
+    background: var(--secondary-color); 
+    border: 2px solid var(--secondary-color)  !important; 
+    color: var(--primary-color); 
+    letter-spacing: 1.5px; 
+    margin: 56px 0 0; 
+    transition: var(--transition-style);
+}
+input, 
+select, 
+textarea { 
+    background: #fdfdfd; 
+    border: 1px solid #cde1e2;
+    border-radius: .25em;  
+    display: block; 
+    font-family: var(--primary-font);
+    font-size: 14px; 
+    width: 100%; 
+    padding: .5em; 
+    resize: vertical;  
+}
+label { 
+    display: block; 
+    font-size: 14px; 
+    margin: 20px 0 16px; 
+}
+
+.required { 
+    color: #ec1c4e;
+    font-weight: bold;  
+}
+
+textarea { 
+    height: 130px; 
+}
+
+textarea::-webkit-scrollbar { 
+    width: 1em; 
+}
+
+textarea::-webkit-scrollbar-thumb { 
+    background-color: var(--tertiary-color); 
+    border-radius: 3px; outline: none; 
+}
+
+form::after { 
+    clear: both;
+    content: ""; 
+    display: block;  
+}
+
+input:focus, 
+input:hover, 
+select:focus, 
+select:hover, 
+textarea:focus, 
+textarea:hover { 
+    background: #f5f5f5; 
+}
+
+input[type="submit"]:hover { 
+    font-weight: bold; 
+}
+
+input:focus, 
+textarea:focus { 
+    border-color: #3c6ea0; 
+    outline: none; 
+}
+
+input[type="submit"]:hover, 
+input[type="submit"]:focus { 
+    background: var(--primary-color); 
+    border: 2px solid var(--secondary-color); 
+    color: var(--secondary-color); 
+    cursor: var(--cursor-style); 
+    outline: none; 
+}
+
+select { 
+    color: #c6effb; 
+}
+
+.error { 
+    background: #fff1f4; 
+    border-radius: 2.5px; 
+    color: #ec1c4e; 
+    display: none; 
+    font-size: 14px; 
+    margin-left: .5rem; 
+    padding: 2px 6px; }
+
+#message { 
+    margin-bottom: 2rem; 
+}
+
+.message { 
+    background: #f7ffff; 
+    border: 1px solid var(--tertiary-color); 
+    border-radius: 2.5px; 
+    color: var(--tertiary-color); 
+    font-size: 14px; 
+    padding: 5px 10px; }
+
+@media screen and (max-width: 1024px) {
+    form { 
+        margin-bottom: 75px; 
+        margin-top: -315px; 
+        padding: 35px; 
+    }
+    .form_column, 
+    .form_message { 
+        float: none; 
+        padding: 0;
+        width: 100%;  
+    }
+    .form-heading { 
+        margin-bottom: 50px; 
+    }
+    input[type="submit"] {
+        font-size: 18px;  
+        padding: 1rem 0; 
+    }
+}
