@@ -13,7 +13,9 @@ Currently this site is built and created with:
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [JavaScript](https://www.javascript.com/)
 ## 🏅 License
-This homepage was created by myself and the code to this project is taken from [my other GitHub account](https://github.com/LunaDragon666/) which I also created from that time. I used [this tool](https://coolors.co/contrast-checker/112a46-acc8e5/) to change and improve website's color contrasts. 
+This homepage was created by myself and the code to this project is taken from [my other GitHub account](https://github.com/LunaDragon666/) which I also created from that time. I used [this tool](https://coolors.co/contrast-checker/112a46-acc8e5/) to change and try to improve website's color contrasts. Other changes I did on this site are:
+- [x] Replacing my previous CV with my latest updated resumé (in my native language)
+- [x] Divide the styling code part of this site in slightly smaller pieces, clearing of CSS files will be continued .. 
 ## ✎ Update information 
 I have also changed what work samples I'll share, which is my required repos listed here:
 - [Project Exam 2](https://github.com/lunadragon06/torfs-art-gallery/tree/master/) 
